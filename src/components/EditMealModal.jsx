@@ -5,7 +5,7 @@ const EditMealModal = ({ meal, isOpen, onClose, onUpdateMeal, onDelete }) => {
         name: '',
         categories: ['Breakfast'],
         time: '',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         imageUrl: '',
         ingredients: []
@@ -23,7 +23,7 @@ const EditMealModal = ({ meal, isOpen, onClose, onUpdateMeal, onDelete }) => {
                 name: meal.name || '',
                 categories: categories,
                 time: meal.time || '',
-                difficulty: meal.difficulty || 'Easy',
+                difficulty: meal.difficulty || 'Snadné',
                 kidFriendly: meal.kidFriendly || false,
                 imageUrl: meal.image || '',
                 ingredients: meal.ingredients || []
@@ -137,9 +137,9 @@ const EditMealModal = ({ meal, isOpen, onClose, onUpdateMeal, onDelete }) => {
                                 value={formData.difficulty}
                                 onChange={(e) => setFormData({ ...formData, difficulty: e.target.value })}
                             >
-                                <option value="Easy">Snadné</option>
-                                <option value="Medium">Střední</option>
-                                <option value="Hard">Těžké</option>
+                                <option value="Snadné">Snadné</option>
+                                <option value="Střední">Střední</option>
+                                <option value="Těžké">Těžké</option>
                             </select>
                         </div>
                     </div>

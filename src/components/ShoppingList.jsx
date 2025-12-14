@@ -21,7 +21,7 @@ function ShoppingList({ plannedMeals, meals }) {
 
         // Iterate through all days in the plan
         Object.entries(plannedMeals).forEach(([day, dayMeals]) => {
-            if (day === 'unassigned') return; // Skip unassigned meals
+            // if (day === 'unassigned') return; // Include unassigned meals
 
             dayMeals.forEach(planItem => {
                 const meal = meals.find(m => m.id === planItem.mealId);
@@ -54,7 +54,8 @@ function ShoppingList({ plannedMeals, meals }) {
 
     const getDayName = (dayKey) => {
         const days = {
-            mon: 'Po', tue: 'Út', wed: 'St', thu: 'Čt', fri: 'Pá', sat: 'So', sun: 'Ne'
+            mon: 'Po', tue: 'Út', wed: 'St', thu: 'Čt', fri: 'Pá', sat: 'So', sun: 'Ne',
+            unassigned: 'Nepřiřazeno'
         };
         return days[dayKey] || dayKey;
     };

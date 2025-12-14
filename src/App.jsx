@@ -20,7 +20,7 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [showImages, setShowImages] = useState(() => {
     const saved = localStorage.getItem('meal_planner_show_images');
-    return saved !== null ? JSON.parse(saved) : true;
+    return saved !== null ? JSON.parse(saved) : false;
   });
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [kidFriendlyFilter, setKidFriendlyFilter] = useState(false);
@@ -170,7 +170,7 @@ function App() {
       <header className="header">
         <div className="header-top">
           <div className="header-left">
-            <h1 className="title">SeznamonoJidlo</h1>
+            <h1 className="title">Jídlo!</h1>
           </div>
           <div className="header-right">
             <label className="btn-import" title="Importovat data">
@@ -208,11 +208,10 @@ function App() {
             className={`tab-btn ${activeTab === 'shopping' ? 'active' : ''}`}
             onClick={() => setActiveTab('shopping')}
           >
-            🛒 Nákupní seznam
+            🛒 Nákup
           </button>
           <button className="btn-primary-sm" onClick={() => setIsModalOpen(true)}>
-            + Přidat jídlo
-          </button>
+            + Nové jídlo      </button>
         </div>
       </div>
 

@@ -6,7 +6,7 @@ export const meals = [
         category: 'Breakfast',
         image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '5 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Řecký jogurt', amount: '200 g' },
@@ -21,7 +21,7 @@ export const meals = [
         category: 'Breakfast',
         image: 'https://images.unsplash.com/photo-1587486937773-f8c1c2b2e8d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '25 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: false,
         ingredients: [
             { name: 'Drcená rajčata', amount: '200 g' },
@@ -40,7 +40,7 @@ export const meals = [
         category: 'Breakfast',
         image: 'https://images.unsplash.com/photo-1525351484163-7529414395d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '15 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Vejce', amount: '3 ks' },
@@ -57,7 +57,7 @@ export const meals = [
         category: 'Breakfast',
         image: 'https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '10 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Celozrnný chléb', amount: '2 plátky' },
@@ -74,7 +74,7 @@ export const meals = [
         category: 'Breakfast',
         image: 'https://images.unsplash.com/photo-1590301157890-4810ed352733?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '5 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Domácí granola', amount: '60 g' },
@@ -89,7 +89,7 @@ export const meals = [
         category: 'Breakfast',
         image: 'https://images.unsplash.com/photo-1608039829572-78524f79c4c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '20 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: false,
         ingredients: [
             { name: 'Vejce', amount: '2 ks' },
@@ -106,7 +106,7 @@ export const meals = [
         category: 'Breakfast',
         image: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '10 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         ingredients: [
             { name: 'Kváskový chléb', amount: '2 plátky' },
@@ -124,7 +124,7 @@ export const meals = [
         category: 'Lunch',
         image: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '20 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Grilované kuřecí prsa', amount: '150 g' },
@@ -142,7 +142,7 @@ export const meals = [
         category: 'Lunch',
         image: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '20 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Arabský chléb/Pita', amount: '1 ks' },
@@ -159,7 +159,7 @@ export const meals = [
         category: 'Lunch',
         image: 'https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '25 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         ingredients: [
             { name: 'Bulgur (suchý)', amount: '50 g' },
@@ -177,7 +177,7 @@ export const meals = [
         category: 'Lunch',
         image: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '35 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Červená čočka', amount: '80 g' },
@@ -195,7 +195,7 @@ export const meals = [
         category: 'Lunch',
         image: 'https://images.unsplash.com/photo-1509722747041-616f39b57569?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '10 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Ciabatta pečivo', amount: '1 ks' },
@@ -212,7 +212,7 @@ export const meals = [
         category: 'Lunch',
         image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '20 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         ingredients: [
             { name: 'Quinoa (uvařená)', amount: '150 g' },
@@ -229,7 +229,7 @@ export const meals = [
         category: 'Lunch',
         image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '15 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         ingredients: [
             { name: 'Bílé fazole (konzerva)', amount: '200 g' },
@@ -248,7 +248,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1467003909585-2f8a7270028d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '30 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: false,
         ingredients: [
             { name: 'Filet z mořského vlka', amount: '1 ks (150-200g)' },
@@ -265,7 +265,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '90 min',
-        difficulty: 'Hard',
+        difficulty: 'Těžké',
         kidFriendly: false,
         ingredients: [
             { name: 'Lilek', amount: '1 velký' },
@@ -283,7 +283,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '40 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Kuřecí maso', amount: '150 g' },
@@ -301,7 +301,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1621996346529-62886c57f201?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '25 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Špagety (suché)', amount: '80-100 g' },
@@ -319,7 +319,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1580959375944-0b6e7f0d3a8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '35 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         ingredients: [
             { name: 'Filet z tresky', amount: '150 g' },
@@ -336,7 +336,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1574484284002-952d92456975?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '45 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: false,
         ingredients: [
             { name: 'Mleté jehněčí/hovězí', amount: '150 g' },
@@ -354,7 +354,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '60 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Lilek', amount: '1 velký' },
@@ -371,7 +371,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '50 min',
-        difficulty: 'Hard',
+        difficulty: 'Těžké',
         kidFriendly: false,
         ingredients: [
             { name: 'Rýže (krátkozrnná)', amount: '150 g' },
@@ -389,7 +389,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1606755962773-d324e0a13086?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '55 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Papriky', amount: '2 ks' },
@@ -406,7 +406,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '20 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         ingredients: [
             { name: 'Sardinky (čerstvé/mražené)', amount: '200 g' },
@@ -423,7 +423,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '45 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Lilek', amount: '1/2 ks' },
@@ -441,7 +441,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1633504581786-316c8002b1b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '25 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         ingredients: [
             { name: 'Krevety', amount: '150 g' },
@@ -459,7 +459,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '70 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: false,
         ingredients: [
             { name: 'Kuřecí stehna', amount: '2-3 ks' },
@@ -477,7 +477,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '20 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Špagety (suché)', amount: '100 g' },
@@ -496,7 +496,7 @@ export const meals = [
         category: 'Snack',
         image: 'https://images.unsplash.com/photo-1621447504864-d8686e12698c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '5 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Hummus', amount: '80 g' },
@@ -511,7 +511,7 @@ export const meals = [
         category: 'Snack',
         image: 'https://images.unsplash.com/photo-1452251889946-8ff5ea7f27f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '5 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         ingredients: [
             { name: 'Zelené/černé olivy', amount: '60 g' },
@@ -526,7 +526,7 @@ export const meals = [
         category: 'Snack',
         image: 'https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '10 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Medjool datle', amount: '3-4 ks' },
@@ -541,7 +541,7 @@ export const meals = [
         category: 'Snack',
         image: 'https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '15 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Plátky bagety', amount: '3 ks' },
@@ -557,7 +557,7 @@ export const meals = [
         category: 'Snack',
         image: 'https://images.unsplash.com/photo-1587486937773-f8c1c2b2e8d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '30 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Cizrna (okapaná)', amount: '150 g' },
@@ -572,7 +572,7 @@ export const meals = [
         category: 'Snack',
         image: 'https://images.unsplash.com/photo-1626200419199-391ae4be7a41?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '10 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Řecký jogurt', amount: '100 g' },
@@ -588,7 +588,7 @@ export const meals = [
         category: 'Snack',
         image: 'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '5 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Meloun/jahody/hrozny', amount: '200 g' },
@@ -605,7 +605,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '50 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Kuřecí maso', amount: '400 g' },
@@ -621,7 +621,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1476124369491-c4cc9b41b4e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '35 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Rýže arborio', amount: '200 g' },
@@ -638,7 +638,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '30 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Kuřecí prsa', amount: '300 g' },
@@ -654,7 +654,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '25 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Špagety', amount: '200 g' },
@@ -670,7 +670,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '25 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Špagety', amount: '200 g' },
@@ -686,7 +686,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '45 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Mleté maso', amount: '400 g' },
@@ -702,7 +702,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1568158879083-c42860933ed7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '40 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Brambory', amount: '800 g' },
@@ -718,7 +718,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '50 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Kuřecí maso', amount: '500 g' },
@@ -734,7 +734,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '35 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Cizrna', amount: '400 g' },
@@ -750,7 +750,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1534939561126-855b8675edd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '120 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Hovězí maso', amount: '600 g' },
@@ -766,7 +766,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1534939561126-855b8675edd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '90 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Vepřové maso', amount: '500 g' },
@@ -782,7 +782,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '60 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Kuřecí maso', amount: '500 g' },
@@ -798,7 +798,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1476124369491-c4cc9b41b4e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '30 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Rýže arborio', amount: '200 g' },
@@ -814,7 +814,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '60 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Listové těsto', amount: '1 ks' },
@@ -830,7 +830,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1467003909585-2f8a7270028d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '30 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         ingredients: [
             { name: 'Losos', amount: '300 g' },
@@ -846,7 +846,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1485921325833-c519f76c4927?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '25 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Losos', amount: '300 g' },
@@ -862,7 +862,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '45 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Těstoviny', amount: '300 g' },
@@ -878,7 +878,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '40 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Ebly', amount: '250 g' },
@@ -894,7 +894,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1621996346529-62886c57f201?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '40 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Hovězí maso', amount: '400 g' },
@@ -910,7 +910,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '50 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Kuřecí/vepřové maso', amount: '500 g' },
@@ -926,7 +926,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1534939561126-855b8675edd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '30 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Hovězí maso', amount: '400 g' },
@@ -942,7 +942,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1534939561126-855b8675edd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '45 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Vepřové maso', amount: '500 g' },
@@ -958,7 +958,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1568158879083-c42860933ed7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '60 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         ingredients: [
             { name: 'Červená řepa', amount: '600 g' },
@@ -974,7 +974,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '30 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Vepřové/kuřecí maso', amount: '400 g' },
@@ -990,7 +990,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1534939561126-855b8675edd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '150 min',
-        difficulty: 'Hard',
+        difficulty: 'Těžké',
         kidFriendly: false,
         ingredients: [
             { name: 'Hovězí maso', amount: '600 g' },
@@ -1006,7 +1006,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '90 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Vepřové maso', amount: '600 g' },
@@ -1022,7 +1022,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '120 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Vepřová krkovice', amount: '800 g' },
@@ -1038,7 +1038,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '45 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Špecle', amount: '400 g' },
@@ -1054,7 +1054,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '30 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Tortilla placky', amount: '4 ks' },
@@ -1070,7 +1070,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '75 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Mleté maso', amount: '500 g' },
@@ -1086,7 +1086,7 @@ export const meals = [
         category: 'Snack',
         image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '90 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Mouka', amount: '500 g' },
@@ -1102,7 +1102,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1621996346529-62886c57f201?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '60 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Mleté maso', amount: '400 g' },
@@ -1118,7 +1118,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '35 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Vepřové kotlety', amount: '4 ks' },
@@ -1134,7 +1134,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '20 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Nudle', amount: '250 g' },
@@ -1150,7 +1150,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '30 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Vepřové/kuřecí maso', amount: '400 g' },
@@ -1166,7 +1166,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1467003909585-2f8a7270028d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '25 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         ingredients: [
             { name: 'Losos', amount: '300 g' },
@@ -1182,7 +1182,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '50 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: false,
         ingredients: [
             { name: 'Kuřecí maso', amount: '500 g' },
@@ -1199,7 +1199,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1467003909585-2f8a7270028d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '35 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Rybí filé', amount: '400 g' },
@@ -1217,7 +1217,7 @@ export const meals = [
         category: 'Lunch',
         image: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '45 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Čočka', amount: '200 g' },
@@ -1233,7 +1233,7 @@ export const meals = [
         category: 'Lunch',
         image: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '60 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Hrách', amount: '300 g' },
@@ -1249,7 +1249,7 @@ export const meals = [
         category: 'Lunch',
         image: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '40 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Brambory', amount: '600 g' },
@@ -1265,7 +1265,7 @@ export const meals = [
         category: 'Lunch',
         image: 'https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '35 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Dýně', amount: '600 g' },
@@ -1281,7 +1281,7 @@ export const meals = [
         category: 'Lunch',
         image: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '50 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Fazole', amount: '300 g' },
@@ -1299,7 +1299,7 @@ export const meals = [
         category: 'Breakfast',
         image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '90 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Mouka', amount: '500 g' },
@@ -1315,7 +1315,7 @@ export const meals = [
         category: 'Breakfast',
         image: 'https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '25 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Mouka', amount: '200 g' },
@@ -1331,7 +1331,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '60 min',
-        difficulty: 'Medium',
+        difficulty: 'Střední',
         kidFriendly: true,
         ingredients: [
             { name: 'Mouka', amount: '500 g' },
@@ -1347,7 +1347,7 @@ export const meals = [
         category: 'Dinner',
         image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '20 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Mouka', amount: '300 g' },
@@ -1363,7 +1363,7 @@ export const meals = [
         category: 'Snack',
         image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '15 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Mléko', amount: '500 ml' },
@@ -1378,7 +1378,7 @@ export const meals = [
         category: 'Breakfast',
         image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         time: '15 min',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: true,
         ingredients: [
             { name: 'Mléko', amount: '500 ml' },

@@ -5,7 +5,7 @@ const AddMealModal = ({ isOpen, onClose, onAddMeal }) => {
         name: '',
         categories: ['Breakfast'], // Changed to array
         time: '',
-        difficulty: 'Easy',
+        difficulty: 'Snadné',
         kidFriendly: false,
         imageUrl: '',
         ingredients: []
@@ -26,11 +26,11 @@ const AddMealModal = ({ isOpen, onClose, onAddMeal }) => {
         const mealData = {
             ...formData,
             time: formData.time.trim() || '30 min',
-            difficulty: formData.difficulty || 'Easy'
+            difficulty: formData.difficulty || 'Snadné'
         };
 
         onAddMeal(mealData);
-        setFormData({ name: '', categories: ['Breakfast'], time: '', difficulty: 'Easy', kidFriendly: false, imageUrl: '', ingredients: [] });
+        setFormData({ name: '', categories: ['Breakfast'], time: '', difficulty: 'Snadné', kidFriendly: false, imageUrl: '', ingredients: [] });
         setNewIngredient({ name: '', amount: '' });
         onClose();
     };
@@ -114,9 +114,9 @@ const AddMealModal = ({ isOpen, onClose, onAddMeal }) => {
                                 value={formData.difficulty}
                                 onChange={(e) => setFormData({ ...formData, difficulty: e.target.value })}
                             >
-                                <option value="Easy">Snadné</option>
-                                <option value="Medium">Střední</option>
-                                <option value="Hard">Těžké</option>
+                                <option value="Snadné">Snadné</option>
+                                <option value="Střední">Střední</option>
+                                <option value="Těžké">Těžké</option>
                             </select>
                         </div>
                     </div>
