@@ -26,6 +26,8 @@ const MealPlan = ({ plannedMeals, meals, onRemove, onMealClick, onMoveMeal }) =>
     const handleDragStart = (e, dayKey, index, planned) => {
         setDraggedItem({ fromDay: dayKey, index, planned });
         e.dataTransfer.effectAllowed = 'move';
+        // Required for Firefox and some other browsers to initiate drag
+        e.dataTransfer.setData('text/plain', JSON.stringify({ fromDay: dayKey, index }));
     };
 
     const handleDragOver = (e) => {
