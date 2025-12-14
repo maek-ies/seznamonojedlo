@@ -9,6 +9,7 @@ import MealDetailModal from './components/MealDetailModal';
 import MealPlan from './components/MealPlan';
 import AddToPlanModal from './components/AddToPlanModal';
 import EditMealModal from './components/EditMealModal';
+import ShoppingList from './components/ShoppingList';
 
 const emptyPlan = {
   unassigned: [], mon: [], tue: [], wed: [], thu: [], fri: [], sat: [], sun: []
@@ -203,6 +204,12 @@ function App() {
           >
             📅 Plán
           </button>
+          <button
+            className={`tab-btn ${activeTab === 'shopping' ? 'active' : ''}`}
+            onClick={() => setActiveTab('shopping')}
+          >
+            🛒 Nákupní seznam
+          </button>
           <button className="btn-primary-sm" onClick={() => setIsModalOpen(true)}>
             + Přidat jídlo
           </button>
@@ -246,6 +253,13 @@ function App() {
           onRemove={removeFromPlan}
           onMealClick={setSelectedMeal}
           onMoveMeal={moveMeal}
+        />
+      )}
+
+      {activeTab === 'shopping' && (
+        <ShoppingList
+          plannedMeals={plannedMeals}
+          meals={meals}
         />
       )}
 
