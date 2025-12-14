@@ -7,7 +7,7 @@ const categoryMap = {
     'Snack': 'Svačina'
 };
 
-const MealCard = ({ meal, onClick, onQuickAdd }) => {
+const MealCard = ({ meal, onClick, onQuickAdd, showImages = true }) => {
     // Support both old (string) and new (array) category format
     const categories = Array.isArray(meal.categories)
         ? meal.categories
@@ -15,26 +15,37 @@ const MealCard = ({ meal, onClick, onQuickAdd }) => {
 
     return (
         <div className="meal-card" onClick={onClick} style={{ cursor: 'pointer' }}>
-            <div className="meal-image-container">
-                <img src={meal.image} alt={meal.name} className="meal-image" loading="lazy" />
-                <div className="meal-category-tags">
-                    {categories.map((cat, idx) => (
-                        <span key={idx} className="meal-category-tag">
-                            {categoryMap[cat] || cat}
-                        </span>
-                    ))}
+            {showImages && (
+                <div className="meal-image-container">
+                    <img src={meal.image} alt={meal.name} className="meal-image" loading="lazy" />
+                    <div className="meal-category-tags">
+                        {categories.map((cat, idx) => (
+                            <span key={idx} className="meal-category-tag">
+                                {categoryMap[cat] || cat}
+                            </span>
+                        ))}
+                    </div>
+                    {meal.kidFriendly && <span className="kid-friendly-badge">⭐</span>}
+                    <button
+                        className="btn-quick-add-card"
+                        onClick={onQuickAdd}
+                        title="Přidat do plánu"
+                    >
+                        +
+                    </button>
                 </div>
-                {meal.kidFriendly && <span className="kid-friendly-badge">⭐</span>}
-                <button
-                    className="btn-quick-add-card"
-                    onClick={onQuickAdd}
-                    title="Přidat do plánu"
-                >
-                    +
-                </button>
-            </div>
+            )}
             <div className="meal-content">
-                <h3 className="meal-title">{meal.name}</h3>
+                <div className="meal-header-row">
+                    <h3 className="meal-title">{meal.name}</h3>
+                    <button
+                        className="btn-quick-add-inline"
+                        onClick={onQuickAdd}
+                        title="Přidat do plánu"
+                    >
+                        +
+                    </button>
+                </div>
                 <div className="meal-meta">
                     <span className="meta-item">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
