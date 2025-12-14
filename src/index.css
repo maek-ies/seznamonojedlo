@@ -1307,12 +1307,25 @@ select:focus {
   font-size: 1.1rem;
 }
 
-opacity: 1;
-background: rgba(239, 68, 68, 0.1);
+.btn-remove-extra:hover {
+  opacity: 1;
+  background: rgba(239, 68, 68, 0.1);
 }
 
 @media (max-width: 640px) {
   .extra-input {
-    flex: 1;
+    flex: 0 1 120px;
+    min-width: 0;
+    /* Allow shrinking below content size */
+    padding: 0.6rem 0.25rem;
+    /* Drastically reduce horizontal padding */
+  }
+
+  .extra-input.amount {
+    flex: 0 0 70px;
+    min-width: 0;
+    padding: 0.6rem 0.1rem;
+    /* minimal padding */
+    text-align: center;
   }
 }
