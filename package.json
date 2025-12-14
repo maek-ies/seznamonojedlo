@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Eurhope.github.io/meal_planner",
+  "homepage": "https://maek-ies.github.io/seznamonojedlo",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
