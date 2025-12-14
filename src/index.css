@@ -1221,3 +1221,98 @@ select:focus {
   margin: 0.5rem 0;
   font-size: 1.1rem;
 }
+
+/* Extra Items Form */
+.add-extra-item-form {
+  margin-bottom: 1.25rem;
+  padding: 0.75rem;
+  background: var(--background);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.add-extra-item-form h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.extra-item-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.extra-input {
+  flex: 0 1 200px;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: var(--surface);
+  transition: all 0.2s;
+}
+
+.extra-input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+}
+
+.extra-input.amount {
+  flex: 0 0 60px;
+}
+
+.btn-add-extra {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 42px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding-bottom: 4px;
+  line-height: 1;
+}
+
+.btn-add-extra:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+}
+
+.extra-item-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+}
+
+.btn-remove-extra {
+  background: transparent;
+  border: none;
+  color: #ef4444;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  line-height: 1;
+  opacity: 0.5;
+  transition: all 0.2s;
+  font-size: 1.1rem;
+}
+
+opacity: 1;
+background: rgba(239, 68, 68, 0.1);
+}
+
+@media (max-width: 640px) {
+  .extra-input {
+    flex: 1;
+  }
+}

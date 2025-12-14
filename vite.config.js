@@ -11,8 +11,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'Meal Planner',
-        short_name: 'MealPlanner',
+        name: 'Jídlo!',
+        short_name: 'Jídlo!',
         description: 'A simple meal planning application',
         theme_color: '#ffffff',
         icons: [
